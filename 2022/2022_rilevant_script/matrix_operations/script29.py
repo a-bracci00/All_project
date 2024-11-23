@@ -1,29 +1,54 @@
 #La funzione verifica se la disposizione delle regine in una matrice mat di dimensione n x n 
 # è una soluzione valida al problema delle N regine, senza che le regine si attacchino tra loro.
 
-def check_nqueen(mat):
+def queen_check(mat):
     if len(mat) != len(mat[0]):
-        raise ValueError
+        return ValueError
     n = len(mat)
-    for i in range(n):
-        for j in range(n):
-            if mat[i][j]: # queen is found at i,j
-                for y in range(n): # vertical scan
-                    if y != i and mat[y][j]:
+    for y in range(n):
+        for x in range(n):
+            if mat[y][x]:
+                for y1 in range(n): #verticale
+                    if y1 != y and mat[y1][x]:
                         return False
-                for x in range(n): # horizontal scan
-                    if x != j and mat[i][x]:
+                for x1 in range(n): #orizzontale
+                    if x1 != x and  mat[y][x1]:
                         return False
-                for x in range(n):
-                    y = x + j + i # top-left to bottom-right
-                    if y >= 0 and y < n and y != i and x != j and mat[y][x]:
+                for j in range(n):
+                    z = j + x + y # alto sinistra basso destra
+                    if z >= 0 and z < n and z != y and j != x and mat[z][j]:
                         return False
-                    y = x - j + i # bottom-left to top-right
-                    if y >= 0 and y < n and y != i and x != j and mat[y][x]:
+                    z = j - x + y #alto destra basso sinistra
+                    if z >= 0 and z < n and z != y and j != x and mat[z][j]:
                         return False
+                    
     return True
 
-m = ([  [True, False, False],
-        [False, False, True],
-        [False, False, False] ])
-print(check_nqueen(m))
+m = ([  [False, False, False, False ],
+        [False, False, False, False ],
+        [False, False, True, False ],
+        [False, True, False, False ],])
+
+print(queen_check(m))
+assert queen_check([ [True, False],
+[False, True] ]) == False
+assert queen_check([ [True] ])
+assert queen_check([ [True, True],
+[False, False] ]) == False
+assert queen_check([ [True, False],
+[False, True] ]) == False
+assert queen_check([ [True, False],
+[True, False] ]) == False
+assert queen_check([ [True, False, False],
+[False, False, True],
+[False, False, False] ]) == True
+assert queen_check([ [True, False, False],
+[False, False, False],
+[False, False, True] ]) == False
+assert queen_check([ [False, True, False],
+                    [False, False, False],
+                    [False, False, True] ]) == True
+assert queen_check([ [False, True, False],
+[False, True, False],
+[False, False, True] ]) == False
+print()
