@@ -1,0 +1,673 @@
+Stazione,Inquinante,Data,Ora,Valore,"Unità di misura"
+"Parco S. Chiara",PM10,2024-01-18,1,26,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,2,27,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,3,26,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,4,26,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,5,25,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,6,26,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,7,26,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,8,27,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,9,29,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,10,31,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,11,31,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,12,31,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,13,28,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,14,29,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,15,30,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,16,29,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,17,33,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,18,36,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,19,44,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,20,47,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,21,44,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,22,46,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,23,44,µg/mc
+"Parco S. Chiara",PM10,2024-01-18,24,42,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,1,20,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,2,20,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,3,20,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,4,20,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,5,20,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,6,20,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,7,21,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,8,22,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,9,23,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,10,24,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,11,24,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,12,24,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,13,22,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,14,24,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,15,25,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,16,24,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,17,28,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,18,31,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,19,37,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,20,39,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,21,38,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,22,40,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,23,39,µg/mc
+"Parco S. Chiara",PM2.5,2024-01-18,24,36,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,1,57,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,2,52,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,3,43,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,4,42,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,5,42,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,6,47,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,7,49,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,8,52,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,9,56,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,10,55,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,11,48,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,12,43,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,13,39,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,14,42,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,15,41,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,16,47,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,17,53,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,18,57,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,19,58,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,20,56,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,21,59,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,22,59,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,23,63,µg/mc
+"Parco S. Chiara","Biossido di Azoto",2024-01-18,24,57,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,1,3,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,2,5,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,3,11,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,4,11,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,5,11,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,6,8,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,7,5,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,8,4,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,9,5,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,10,7,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,11,12,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,12,17,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,13,20,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,14,17,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,15,17,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,16,11,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,17,5,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,18,3,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,19,4,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,20,4,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,21,4,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,22,4,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,23,4,µg/mc
+"Parco S. Chiara",Ozono,2024-01-18,24,4,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,1,2,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,2,2,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,3,1,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,4,1,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,5,1,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,6,2,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,7,2,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,8,2,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,9,3,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,10,3,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,11,3,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,12,3,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,13,3,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,14,3,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,15,3,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,16,4,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,17,3,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,18,4,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,19,6,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,20,6,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,21,7,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,22,6,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,23,7,µg/mc
+"Parco S. Chiara","Biossido Zolfo",2024-01-18,24,6,µg/mc
+"Via Bolzano",PM10,2024-01-18,1,23,µg/mc
+"Via Bolzano",PM10,2024-01-18,2,20,µg/mc
+"Via Bolzano",PM10,2024-01-18,3,19,µg/mc
+"Via Bolzano",PM10,2024-01-18,4,18,µg/mc
+"Via Bolzano",PM10,2024-01-18,5,17,µg/mc
+"Via Bolzano",PM10,2024-01-18,6,19,µg/mc
+"Via Bolzano",PM10,2024-01-18,7,23,µg/mc
+"Via Bolzano",PM10,2024-01-18,8,33,µg/mc
+"Via Bolzano",PM10,2024-01-18,9,33,µg/mc
+"Via Bolzano",PM10,2024-01-18,10,31,µg/mc
+"Via Bolzano",PM10,2024-01-18,11,31,µg/mc
+"Via Bolzano",PM10,2024-01-18,12,29,µg/mc
+"Via Bolzano",PM10,2024-01-18,13,24,µg/mc
+"Via Bolzano",PM10,2024-01-18,14,26,µg/mc
+"Via Bolzano",PM10,2024-01-18,15,28,µg/mc
+"Via Bolzano",PM10,2024-01-18,16,27,µg/mc
+"Via Bolzano",PM10,2024-01-18,17,32,µg/mc
+"Via Bolzano",PM10,2024-01-18,18,41,µg/mc
+"Via Bolzano",PM10,2024-01-18,19,49,µg/mc
+"Via Bolzano",PM10,2024-01-18,20,61,µg/mc
+"Via Bolzano",PM10,2024-01-18,21,62,µg/mc
+"Via Bolzano",PM10,2024-01-18,22,57,µg/mc
+"Via Bolzano",PM10,2024-01-18,23,51,µg/mc
+"Via Bolzano",PM10,2024-01-18,24,50,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,1,57,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,2,45,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,3,40,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,4,40,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,5,37,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,6,48,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,7,54,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,8,73,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,9,63,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,10,58,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,11,53,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,12,46,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,13,39,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,14,49,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,15,51,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,16,49,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,17,67,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,18,61,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,19,63,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,20,75,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,21,80,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,22,71,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,23,58,µg/mc
+"Via Bolzano","Biossido di Azoto",2024-01-18,24,53,µg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,1,0.5,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,2,0.4,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,3,0.4,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,4,0.4,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,5,0.4,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,6,0.4,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,7,0.5,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,8,0.7,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,9,0.7,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,10,0.6,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,11,0.6,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,12,0.5,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,13,0.5,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,14,0.6,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,15,0.6,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,16,0.6,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,17,0.6,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,18,0.9,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,19,1.1,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,20,1.3,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,21,1.4,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,22,1.2,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,23,1.1,mg/mc
+"Via Bolzano","Ossido di Carbonio",2024-01-18,24,1.0,mg/mc
+"Piana Rotaliana",PM10,2024-01-18,1,22,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,2,22,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,3,20,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,4,21,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,5,24,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,6,20,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,7,23,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,8,25,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,9,27,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,10,29,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,11,29,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,12,32,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,13,33,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,14,38,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,15,36,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,16,39,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,17,41,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,18,35,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,19,37,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,20,60,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,21,68,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,22,56,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,23,43,µg/mc
+"Piana Rotaliana",PM10,2024-01-18,24,50,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,1,39,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,2,34,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,3,30,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,4,21,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,5,19,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,6,27,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,7,32,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,8,40,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,9,43,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,10,39,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,11,34,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,12,34,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,13,37,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,14,38,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,15,38,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,16,40,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,17,43,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,18,42,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,19,40,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,20,42,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,21,37,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,22,32,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,23,27,µg/mc
+"Piana Rotaliana","Biossido di Azoto",2024-01-18,24,28,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,1,12,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,2,18,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,3,22,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,4,31,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,5,29,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,6,21,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,7,15,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,8,6,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,9,6,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,10,11,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,11,15,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,12,17,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,13,14,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,14,13,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,15,11,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,16,9,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,17,5,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,18,3,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,19,3,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,20,5,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,21,5,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,22,4,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,23,3,µg/mc
+"Piana Rotaliana",Ozono,2024-01-18,24,4,µg/mc
+Rovereto,PM10,2024-01-18,1,21,µg/mc
+Rovereto,PM10,2024-01-18,2,18,µg/mc
+Rovereto,PM10,2024-01-18,3,16,µg/mc
+Rovereto,PM10,2024-01-18,4,16,µg/mc
+Rovereto,PM10,2024-01-18,5,19,µg/mc
+Rovereto,PM10,2024-01-18,6,20,µg/mc
+Rovereto,PM10,2024-01-18,7,19,µg/mc
+Rovereto,PM10,2024-01-18,8,21,µg/mc
+Rovereto,PM10,2024-01-18,9,26,µg/mc
+Rovereto,PM10,2024-01-18,10,30,µg/mc
+Rovereto,PM10,2024-01-18,11,27,µg/mc
+Rovereto,PM10,2024-01-18,12,26,µg/mc
+Rovereto,PM10,2024-01-18,13,24,µg/mc
+Rovereto,PM10,2024-01-18,14,25,µg/mc
+Rovereto,PM10,2024-01-18,15,27,µg/mc
+Rovereto,PM10,2024-01-18,16,29,µg/mc
+Rovereto,PM10,2024-01-18,17,32,µg/mc
+Rovereto,PM10,2024-01-18,18,38,µg/mc
+Rovereto,PM10,2024-01-18,19,40,µg/mc
+Rovereto,PM10,2024-01-18,20,44,µg/mc
+Rovereto,PM10,2024-01-18,21,42,µg/mc
+Rovereto,PM10,2024-01-18,22,48,µg/mc
+Rovereto,PM10,2024-01-18,23,41,µg/mc
+Rovereto,PM10,2024-01-18,24,36,µg/mc
+Rovereto,PM2.5,2024-01-18,1,14,µg/mc
+Rovereto,PM2.5,2024-01-18,2,13,µg/mc
+Rovereto,PM2.5,2024-01-18,3,13,µg/mc
+Rovereto,PM2.5,2024-01-18,4,15,µg/mc
+Rovereto,PM2.5,2024-01-18,5,18,µg/mc
+Rovereto,PM2.5,2024-01-18,6,21,µg/mc
+Rovereto,PM2.5,2024-01-18,7,22,µg/mc
+Rovereto,PM2.5,2024-01-18,8,24,µg/mc
+Rovereto,PM2.5,2024-01-18,9,29,µg/mc
+Rovereto,PM2.5,2024-01-18,10,31,µg/mc
+Rovereto,PM2.5,2024-01-18,11,26,µg/mc
+Rovereto,PM2.5,2024-01-18,12,26,µg/mc
+Rovereto,PM2.5,2024-01-18,13,23,µg/mc
+Rovereto,PM2.5,2024-01-18,14,23,µg/mc
+Rovereto,PM2.5,2024-01-18,15,24,µg/mc
+Rovereto,PM2.5,2024-01-18,16,27,µg/mc
+Rovereto,PM2.5,2024-01-18,17,33,µg/mc
+Rovereto,PM2.5,2024-01-18,18,38,µg/mc
+Rovereto,PM2.5,2024-01-18,19,37,µg/mc
+Rovereto,PM2.5,2024-01-18,20,41,µg/mc
+Rovereto,PM2.5,2024-01-18,21,42,µg/mc
+Rovereto,PM2.5,2024-01-18,22,49,µg/mc
+Rovereto,PM2.5,2024-01-18,23,41,µg/mc
+Rovereto,PM2.5,2024-01-18,24,34,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,1,44,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,2,36,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,3,27,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,4,28,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,5,31,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,6,33,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,7,42,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,8,46,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,9,48,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,10,44,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,11,32,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,12,27,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,13,29,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,14,27,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,15,28,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,16,35,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,17,44,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,18,49,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,19,44,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,20,46,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,21,45,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,22,51,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,23,44,µg/mc
+Rovereto,"Biossido di Azoto",2024-01-18,24,41,µg/mc
+Rovereto,Ozono,2024-01-18,1,7,µg/mc
+Rovereto,Ozono,2024-01-18,2,16,µg/mc
+Rovereto,Ozono,2024-01-18,3,24,µg/mc
+Rovereto,Ozono,2024-01-18,4,22,µg/mc
+Rovereto,Ozono,2024-01-18,5,16,µg/mc
+Rovereto,Ozono,2024-01-18,6,14,µg/mc
+Rovereto,Ozono,2024-01-18,7,5,µg/mc
+Rovereto,Ozono,2024-01-18,8,4,µg/mc
+Rovereto,Ozono,2024-01-18,9,5,µg/mc
+Rovereto,Ozono,2024-01-18,10,9,µg/mc
+Rovereto,Ozono,2024-01-18,11,19,µg/mc
+Rovereto,Ozono,2024-01-18,12,24,µg/mc
+Rovereto,Ozono,2024-01-18,13,24,µg/mc
+Rovereto,Ozono,2024-01-18,14,26,µg/mc
+Rovereto,Ozono,2024-01-18,15,26,µg/mc
+Rovereto,Ozono,2024-01-18,16,17,µg/mc
+Rovereto,Ozono,2024-01-18,17,8,µg/mc
+Rovereto,Ozono,2024-01-18,18,3,µg/mc
+Rovereto,Ozono,2024-01-18,19,3,µg/mc
+Rovereto,Ozono,2024-01-18,20,3,µg/mc
+Rovereto,Ozono,2024-01-18,21,4,µg/mc
+Rovereto,Ozono,2024-01-18,22,5,µg/mc
+Rovereto,Ozono,2024-01-18,23,3,µg/mc
+Rovereto,Ozono,2024-01-18,24,3,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,1,35,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,2,29,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,3,28,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,4,26,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,5,18,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,6,9,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,7,11,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,8,16,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,9,22,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,10,24,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,11,25,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,12,20,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,13,22,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,14,22,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,15,21,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,16,18,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,17,20,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,18,44,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,19,38,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,20,48,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,21,49,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,22,41,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,23,40,µg/mc
+"Borgo Valsugana",PM10,2024-01-18,24,36,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,1,28,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,2,23,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,3,22,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,4,20,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,5,14,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,6,8,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,7,9,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,8,12,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,9,16,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,10,18,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,11,19,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,12,15,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,13,16,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,14,14,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,15,13,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,16,11,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,17,11,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,18,23,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,19,20,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,20,27,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,21,26,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,22,26,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,23,31,µg/mc
+"Borgo Valsugana",PM2.5,2024-01-18,24,31,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,1,32,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,2,32,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,3,33,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,4,31,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,5,32,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,6,33,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,7,38,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,8,36,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,9,43,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,10,40,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,11,37,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,12,30,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,13,32,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,14,32,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,15,35,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,16,35,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,17,45,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,18,59,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,19,48,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,20,43,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,21,36,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,22,33,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,23,29,µg/mc
+"Borgo Valsugana","Biossido di Azoto",2024-01-18,24,30,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,1,11,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,2,10,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,3,8,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,4,8,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,5,8,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,6,11,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,7,10,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,8,11,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,9,8,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,10,11,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,11,16,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,12,22,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,13,22,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,14,23,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,15,19,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,16,22,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,17,9,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,18,4,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,19,3,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,20,3,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,21,3,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,22,3,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,23,3,µg/mc
+"Borgo Valsugana",Ozono,2024-01-18,24,2,µg/mc
+"Riva del Garda",PM10,2024-01-18,1,27,µg/mc
+"Riva del Garda",PM10,2024-01-18,2,20,µg/mc
+"Riva del Garda",PM10,2024-01-18,3,20,µg/mc
+"Riva del Garda",PM10,2024-01-18,4,24,µg/mc
+"Riva del Garda",PM10,2024-01-18,5,23,µg/mc
+"Riva del Garda",PM10,2024-01-18,6,23,µg/mc
+"Riva del Garda",PM10,2024-01-18,7,24,µg/mc
+"Riva del Garda",PM10,2024-01-18,8,23,µg/mc
+"Riva del Garda",PM10,2024-01-18,9,25,µg/mc
+"Riva del Garda",PM10,2024-01-18,10,25,µg/mc
+"Riva del Garda",PM10,2024-01-18,11,18,µg/mc
+"Riva del Garda",PM10,2024-01-18,12,14,µg/mc
+"Riva del Garda",PM10,2024-01-18,13,14,µg/mc
+"Riva del Garda",PM10,2024-01-18,14,15,µg/mc
+"Riva del Garda",PM10,2024-01-18,15,15,µg/mc
+"Riva del Garda",PM10,2024-01-18,16,18,µg/mc
+"Riva del Garda",PM10,2024-01-18,17,18,µg/mc
+"Riva del Garda",PM10,2024-01-18,18,21,µg/mc
+"Riva del Garda",PM10,2024-01-18,19,24,µg/mc
+"Riva del Garda",PM10,2024-01-18,20,23,µg/mc
+"Riva del Garda",PM10,2024-01-18,21,39,µg/mc
+"Riva del Garda",PM10,2024-01-18,22,36,µg/mc
+"Riva del Garda",PM10,2024-01-18,23,33,µg/mc
+"Riva del Garda",PM10,2024-01-18,24,30,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,1,21,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,2,16,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,3,16,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,4,17,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,5,19,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,6,27,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,7,38,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,8,36,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,9,42,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,10,37,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,11,25,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,12,19,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,13,22,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,14,23,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,15,27,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,16,33,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,17,36,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,18,37,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,19,37,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,20,35,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,21,38,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,22,41,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,23,37,µg/mc
+"Riva del Garda","Biossido di Azoto",2024-01-18,24,35,µg/mc
+"Riva del Garda",Ozono,2024-01-18,1,28,µg/mc
+"Riva del Garda",Ozono,2024-01-18,2,34,µg/mc
+"Riva del Garda",Ozono,2024-01-18,3,33,µg/mc
+"Riva del Garda",Ozono,2024-01-18,4,28,µg/mc
+"Riva del Garda",Ozono,2024-01-18,5,25,µg/mc
+"Riva del Garda",Ozono,2024-01-18,6,18,µg/mc
+"Riva del Garda",Ozono,2024-01-18,7,9,µg/mc
+"Riva del Garda",Ozono,2024-01-18,8,9,µg/mc
+"Riva del Garda",Ozono,2024-01-18,9,6,µg/mc
+"Riva del Garda",Ozono,2024-01-18,10,10,µg/mc
+"Riva del Garda",Ozono,2024-01-18,11,23,µg/mc
+"Riva del Garda",Ozono,2024-01-18,12,31,µg/mc
+"Riva del Garda",Ozono,2024-01-18,13,33,µg/mc
+"Riva del Garda",Ozono,2024-01-18,14,31,µg/mc
+"Riva del Garda",Ozono,2024-01-18,15,25,µg/mc
+"Riva del Garda",Ozono,2024-01-18,16,12,µg/mc
+"Riva del Garda",Ozono,2024-01-18,17,12,µg/mc
+"Riva del Garda",Ozono,2024-01-18,18,5,µg/mc
+"Riva del Garda",Ozono,2024-01-18,19,4,µg/mc
+"Riva del Garda",Ozono,2024-01-18,20,4,µg/mc
+"Riva del Garda",Ozono,2024-01-18,21,5,µg/mc
+"Riva del Garda",Ozono,2024-01-18,22,5,µg/mc
+"Riva del Garda",Ozono,2024-01-18,23,4,µg/mc
+"Riva del Garda",Ozono,2024-01-18,24,4,µg/mc
+"A22 (Avio)",PM10,2024-01-18,1,13,µg/mc
+"A22 (Avio)",PM10,2024-01-18,2,12,µg/mc
+"A22 (Avio)",PM10,2024-01-18,3,11,µg/mc
+"A22 (Avio)",PM10,2024-01-18,4,11,µg/mc
+"A22 (Avio)",PM10,2024-01-18,5,11,µg/mc
+"A22 (Avio)",PM10,2024-01-18,6,12,µg/mc
+"A22 (Avio)",PM10,2024-01-18,7,13,µg/mc
+"A22 (Avio)",PM10,2024-01-18,8,15,µg/mc
+"A22 (Avio)",PM10,2024-01-18,9,16,µg/mc
+"A22 (Avio)",PM10,2024-01-18,10,16,µg/mc
+"A22 (Avio)",PM10,2024-01-18,11,17,µg/mc
+"A22 (Avio)",PM10,2024-01-18,12,15,µg/mc
+"A22 (Avio)",PM10,2024-01-18,13,17,µg/mc
+"A22 (Avio)",PM10,2024-01-18,14,18,µg/mc
+"A22 (Avio)",PM10,2024-01-18,15,17,µg/mc
+"A22 (Avio)",PM10,2024-01-18,16,18,µg/mc
+"A22 (Avio)",PM10,2024-01-18,17,18,µg/mc
+"A22 (Avio)",PM10,2024-01-18,18,17,µg/mc
+"A22 (Avio)",PM10,2024-01-18,19,17,µg/mc
+"A22 (Avio)",PM10,2024-01-18,20,18,µg/mc
+"A22 (Avio)",PM10,2024-01-18,21,19,µg/mc
+"A22 (Avio)",PM10,2024-01-18,22,21,µg/mc
+"A22 (Avio)",PM10,2024-01-18,23,20,µg/mc
+"A22 (Avio)",PM10,2024-01-18,24,21,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,1,52,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,2,53,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,3,50,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,4,50,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,5,53,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,6,50,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,7,53,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,8,55,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,9,53,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,10,49,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,11,50,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,12,39,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,13,38,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,14,40,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,15,41,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,16,50,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,17,58,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,18,61,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,19,56,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,20,58,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,21,52,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,22,53,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,23,50,µg/mc
+"A22 (Avio)","Biossido di Azoto",2024-01-18,24,46,µg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,1,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,2,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,3,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,4,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,5,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,6,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,7,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,8,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,9,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,10,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,11,1.4,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,12,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,13,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,14,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,15,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,16,1.3,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,17,1.4,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,18,1.4,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,19,1.4,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,20,1.5,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,21,1.5,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,22,1.6,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,23,1.5,mg/mc
+"A22 (Avio)","Ossido di Carbonio",2024-01-18,24,1.6,mg/mc
+"Monte Gaza",PM10,2024-01-18,1,3,µg/mc
+"Monte Gaza",PM10,2024-01-18,2,4,µg/mc
+"Monte Gaza",PM10,2024-01-18,3,3,µg/mc
+"Monte Gaza",PM10,2024-01-18,4,2,µg/mc
+"Monte Gaza",PM10,2024-01-18,5,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,6,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,7,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,8,2,µg/mc
+"Monte Gaza",PM10,2024-01-18,9,2,µg/mc
+"Monte Gaza",PM10,2024-01-18,10,2,µg/mc
+"Monte Gaza",PM10,2024-01-18,11,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,12,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,13,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,14,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,15,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,16,1,µg/mc
+"Monte Gaza",PM10,2024-01-18,17,3,µg/mc
+"Monte Gaza",PM10,2024-01-18,18,3,µg/mc
+"Monte Gaza",PM10,2024-01-18,19,9,µg/mc
+"Monte Gaza",PM10,2024-01-18,20,41,µg/mc
+"Monte Gaza",PM10,2024-01-18,21,47,µg/mc
+"Monte Gaza",PM10,2024-01-18,22,80,µg/mc
+"Monte Gaza",PM10,2024-01-18,23,49,µg/mc
+"Monte Gaza",PM10,2024-01-18,24,6,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,1,3,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,2,3,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,3,3,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,4,3,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,5,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,6,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,7,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,8,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,9,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,10,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,11,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,12,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,13,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,14,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,15,2,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,16,3,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,17,3,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,18,3,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,19,4,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,20,4,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,21,4,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,22,5,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,23,4,µg/mc
+"Monte Gaza","Biossido di Azoto",2024-01-18,24,3,µg/mc
+"Monte Gaza",Ozono,2024-01-18,1,73,µg/mc
+"Monte Gaza",Ozono,2024-01-18,2,72,µg/mc
+"Monte Gaza",Ozono,2024-01-18,3,72,µg/mc
+"Monte Gaza",Ozono,2024-01-18,4,73,µg/mc
+"Monte Gaza",Ozono,2024-01-18,5,73,µg/mc
+"Monte Gaza",Ozono,2024-01-18,6,70,µg/mc
+"Monte Gaza",Ozono,2024-01-18,7,68,µg/mc
+"Monte Gaza",Ozono,2024-01-18,8,70,µg/mc
+"Monte Gaza",Ozono,2024-01-18,9,71,µg/mc
+"Monte Gaza",Ozono,2024-01-18,10,72,µg/mc
+"Monte Gaza",Ozono,2024-01-18,11,72,µg/mc
+"Monte Gaza",Ozono,2024-01-18,12,74,µg/mc
+"Monte Gaza",Ozono,2024-01-18,13,72,µg/mc
+"Monte Gaza",Ozono,2024-01-18,14,72,µg/mc
+"Monte Gaza",Ozono,2024-01-18,15,71,µg/mc
+"Monte Gaza",Ozono,2024-01-18,16,71,µg/mc
+"Monte Gaza",Ozono,2024-01-18,17,73,µg/mc
+"Monte Gaza",Ozono,2024-01-18,18,72,µg/mc
+"Monte Gaza",Ozono,2024-01-18,19,70,µg/mc
+"Monte Gaza",Ozono,2024-01-18,20,68,µg/mc
+"Monte Gaza",Ozono,2024-01-18,21,68,µg/mc
+"Monte Gaza",Ozono,2024-01-18,22,66,µg/mc
+"Monte Gaza",Ozono,2024-01-18,23,66,µg/mc
+"Monte Gaza",Ozono,2024-01-18,24,70,µg/mc
