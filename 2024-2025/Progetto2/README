@@ -1,0 +1,14 @@
+
+    # RICHIESTA
+
+    #   Convertire da file xlsx a file txt contenente le sollecitazioni di una connessione in acciaio per le verifiche strutturali
+    #   tramite programma PRO_SAP, adattandolo così alla formattazione richiesta in input.
+
+    # BREVE DESCRIZIONE SUL FUNZIONAMENTO
+
+    #   Legge il file xlxs tramite Pandas
+    #   Seleziona solo le colonne desiderate
+    #   Formatta le colonne con 2 cifre dopo la virgola
+    #   Riscrive il Dataframe in un file txt
+    #   Modifica delle righe contenute nel file txt rimuovendo o aggiungendo spazi bianchi dove richiesto
+    #   Sovrascrive il file txt con le modifiche apportate
