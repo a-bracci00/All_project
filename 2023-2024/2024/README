@@ -14,6 +14,7 @@
     #     xml
     #     json
     #     html
+    #     chardet
     #     query sqlite3
     #     query sql
     #     query psycopg2
