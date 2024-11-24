@@ -6,4 +6,4 @@ cognome: Botticelli
 data di nascita: 1445-03-01
 nome: Niccolò
 cognome: Macchiavelli
-data di nascita: 1469-05-03
+data di nascita: 1469-05-03 
