@@ -1,0 +1,45 @@
+
+    # Dalla fine del 2023 ho iniziato ad usare il notebook di jupiter con estensione .ipynb
+
+    # Nei seguenti notebook ci saranno i vari esercizi che ho svolto per fare pratica, che comprendono
+
+    #     'csv
+    #     numpy
+    #     math
+    #     web scraping
+    #     requests
+    #     xml
+    #     json
+    #     html
+    #     query sqlite3
+    #     query sql
+    #     query psycopg2
+    #     pandas dataframe
+    #     grafici con matplotlib
+    #     sklearn
+    #     seaborn
+    #     bgplot
+    #     dash
+    #     plotly
+    #     ydata
+    #     sweetviz
+    #     PIL image
+    #     tkinter
+    #     BeautifulSoup
+    #     functools
+    #     itertools
+    #     difflib
+    #     heapq
+
+    # Ci sono anche dei file .py dove sperimento
+    #     la creazione e uso delle classi
+    #     dbm
+    #     random
+    #     os
+    #     urllib
+    #     socket
+    #     re (per trovare i dati in base al regex)
+    #     time
+    #     ipywidgets
+    #     estrazione dati da opendata
+    #     estrazione dati da dati.gov
