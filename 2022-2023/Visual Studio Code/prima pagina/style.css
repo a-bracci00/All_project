@@ -1,18 +1,26 @@
 .titolo{color: rgba(245, 136, 11, 0.966); text-align: center;}
+
 .sfondotitolo{position: absolute; display: block; z-index: -1;
 left: 0px; right: 0px; top: 0px; width: 1300px; height: 90px;}
 body{background-color: rgb(59, 59, 59);}
+
 .little{color: rgba(247, 209, 107, 0.966); font-size: 20px; }
+
 .orange{color: rgba(245, 136, 11, 0.966);}
+
 .green{color: rgb(13, 173, 47); font-weight: bold;}
+
 .container{border: solid 2px green; display: flex; border-radius: 10px;
      margin: 5px; }
+
 .item{border: solid 2px rgba(245, 136, 11, 0.966); border-radius: 20px; margin: 5px; 
      flex: 1 1 10px; display: flex;
     flex-direction: row; justify-content: center;}
+
 .bottone{background-color: rgb(59, 59, 59); 
     border-radius: 20px; margin: 5px; color: white; display: flex; flex: 1 1 10px; 
     flex-direction: row; justify-content: center;cursor: pointer;}
+    
 .testo{
      background-color: white;
 }
