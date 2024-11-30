@@ -1,0 +1,12 @@
+
+    # RICHIESTA
+
+    #   Creare un programma sistema debian che mostri la qualità della connessione, 
+    #   la qualità del segnale ed il ping con possibilità di cambiare indirizzo ip, interfaccia wifi
+    #   e la velocità del test
+
+    # BREVE DESCRIZIONE SUL FUNZIONAMENTO
+
+    #   Tramite la libreria subprocess, richiamo tool gia esistenti tramite linea di comando
+    #   per poi printare i risultati sovrascrivendoli sulla stessa riga per migliorare la visibilità
+    #   tramite la libreria curses
