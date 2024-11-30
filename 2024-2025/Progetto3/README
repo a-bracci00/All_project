@@ -1,0 +1,10 @@
+
+    # RICHIESTA
+
+    #   Estrarre i dati energetici da file txt in output da altro software
+
+    # BREVE DESCRIZIONE SUL FUNZIONAMENTO
+
+    #   Legge il file txt
+    #   Se la riga contiente 'element', dividi gli elementi tramite '|' e seleziona
+        #   il valore numerico alla posizione 3 printandolo
