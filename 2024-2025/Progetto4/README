@@ -1,7 +1,7 @@
 
     # RICHIESTA
 
-    #   Creare un programma sistema debian che mostri la qualità della connessione, 
+    #   Creare un programma su sistema debian che mostri la qualità della connessione, 
     #   la qualità del segnale ed il ping con possibilità di cambiare indirizzo ip, interfaccia wifi
     #   e la velocità del test
 

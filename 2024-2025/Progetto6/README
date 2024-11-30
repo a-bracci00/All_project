@@ -1,0 +1,12 @@
+
+    # RICHIESTA
+
+    #   Riavviare un modem con un programma automatizzato senza accedere manualmente tramite 
+    #   interfaccia grafica da browser
+
+    # BREVE DESCRIZIONE SUL FUNZIONAMENTO
+
+    #   Tramite la libreria selenium, apro firefox 
+    #   digito l'indirizzo ip del modem
+    #   inserisco username e password
+    #   vado nelle impostazioni e riavvio il modem

@@ -1,0 +1,10 @@
+
+    # RICHIESTA
+
+    #   Creare un programma su sistema debian che dia la possiblità di usare teamviewer 
+    #   in modo continuo senza licenza sia in uscita che in entrata
+
+    # BREVE DESCRIZIONE SUL FUNZIONAMENTO
+
+    #   Tramite la libreria subprocess e psutil, se teamwiever non è in esecuzione, attivalo ed
+    #   esegui questo controllo ogni tot minuti
