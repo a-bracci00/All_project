@@ -1,0 +1,13 @@
+
+    # RICHIESTA
+
+    #   Leggere PDF nella cartella
+
+    # BREVE DESCRIZIONE SUL FUNZIONAMENTO
+
+    #   Legge il file connettività.txt per estrarne il numero di trave ed i 
+    #       rispettivi nodi mettendoli in un dizionario
+    #   Legge il file spostamento.txt ed in base alle travi nel dizionario estraggo 
+    #       la porzione di dati interessata
+    #   Ed infine esegue i vari calcoli per poi printare le soluzioni da copiare ed incollare 
+    #       nel file excel come richiesto
