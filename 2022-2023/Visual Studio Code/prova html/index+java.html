@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body id="parent">
+        <p id="messages">new messages</p>
+<p id="intro">tweets</p>
+<p id="question">what's up?</p>
+<p id="trial">try the free trial</p>
+<p id="newspaper">the springfield shopper</p>
+<h2 id="rental">ben's bike rental</h2>
+
+<body id="parent">
+  <h2>facebook</h2>
+
+  <p id="child">meg:movie later?</p>
+
+</body>
+
+
+
+<script>
+  var username="lee";
+  var tweets=50;
+  console.log(username);
+
+  document.getElementById("messages");
+  document.getElementById("intro");
+  document.getElementById("question");
+ 
+  console.log(document.getElementById("messages").innerHTML);
+  document.getElementById("messages").innerHTML="no messages";
+  document.getElementById("trial").innerHTML="first week is on us";
+  console.log(document.getElementById("newspaper").innerHTML);
+  document.getElementById("rental").innerHTML="ron's bike rental";
+
+
+  var element=document.getElementById("messages");
+  console.log(element.innerHTML);
+
+  var element=document.getElementById("messages");
+  element.innerHTML="no messages";
+
+  var title=document.getElementById("rental");
+  title.innerHTML=("ron's bike rental");
+
+  var paragraph=document.createElement("p");
+  paragraph.innerHTML="joe:football?";
+
+  var bodyelement;
+  var paragraph=document.createElement("p");
+  paragraph.innerHTML="meg:movie later?";
+
+  var bodyelement=document.getElementById("parent");
+  var paragraph=document.createElement("p");
+  paragraph.innerHTML="meg:movie later?";
+
+  var bodyelement=document.getElementById("parent");
+  var paragraph=document.createElement("p");
+  paragraph.innerHTML="meg:movie later?";
+  
+
+  var bodyelement=document.getElementById("parent");
+  var paragraph=document.createElement("p");
+  paragraph.innerHTML="meg:movie later?";
+  bodyelement.appendChild(paragraph);
+
+  var bodyelement=document.getElementById("parent");
+  var heading=document.createElement("h1");
+  paragraph.innerHTML="meg:movie later?";
+  bodyelement.appendChild(heading);
+
+  var bodyelement= document.getElementById("parent");
+  var paragraph= document.getElementById("child");
+
+
+  var bodyelement= document.getElementById("parent");
+  var paragraph= document.getElementById("child");
+  bodyelement.removeChild(paragraph);
+</script>
+
+<button onclick="sayhello()">click me!</button>
+<br><hr>
+
+<button onclick="sayhello1()">publish website</button>
+<h3 id="prompt"></h3>
+<br><hr>
+
+<button onclick="orderitem()">orderitem</button>
+<h3 id="prompt1"></h3>
+<br><hr>
+
+<button onclick="deleteAccount()">delete account</button>
+<h3 id="prompt2"></h3>
+<br><hr>
+
+<button onclick="save()">save progress</button>
+<h3 id="prompt3"></h3>
+<br><hr>
+
+<h1>sign up</h1>
+<input type="text">
+
+<h1>leave a review</h1>
+<textarea></textarea>
+
+<h1>leave a review</h1>
+<textarea rows="3" cols="15"></textarea>
+<hr>
+
+<input id="usernameinput" type="text" placeholder="username">
+<button onclick="register()">register</button>
+<h4 id="message"></h4>
+<hr>
+
+<h1>costumer review</h1>
+<textarea id="reviewtext" rows=5 cols="10" placeholder="write your review here"></textarea>
+<br>
+<button onclick="addreview()">add review</button>
+<h4 id="addedreview"></h4>
+<br><hr>
+
+<input id="usernameinput1" type="text" placeholder="username">
+<button onclick="register1()">register</button>
+<br><hr>
+
+<img id="profilepic" src="https://i.imgur.com/fOMTegD.jpeg">
+<textarea id="posttext" rows="3" cols="18" placeholder="whtat's on your mind"></textarea>
+<br>
+<button onclick="share()">share</button>
+<br><hr>
+
+<input id="searchinput" type="text" placeholder="search">
+<button onclick="search()">search</button>
+<p id="message"></p>
+<br><hr>
+
+<h1>sign up</h1>
+<input id="emailinput" type="text" placeholder="email">
+<button onclick="signup()">sign up</button>
+<br><hr>
+
+<h1>costumer review</h1>
+<textarea id="reviewtext" rows="5" cols="18" placeholder="write your review here"></textarea>
+<br>
+<button onclick="addreview()">add review</button>
+<p id="addedreview"></p>
+<br><hr>
+
+<button onclick="publish()">publish website</button>
+<p>website not published</p>
+<br><hr>
+
+<button onclick="publish()">publish website</button>
+<p id="prompt4">website not published!</p>
+<br><hr>
+
+<p class="prompt6">website not published</p>
+<br><hr>
+
+<h3>firts heading</h3>
+<h3>second heading</h3>
+<h3>third heading</h3>
+<br><hr>
+
+<h3 class="prompt5">website status</h3>
+<p class="prompt7">web site not published</p>
+<br><hr>
+
+<p class="prompt8">website status</p>
+<p class="prompt9 update">web site not published</p>
+<br><hr>
+
+<button onclick="showattribute()">show attribute</button>
+<br>
+<img src="https://i.imgur.com/fOMTegD.jpeg">
+<br><hr>
+
+<button onclick="showattribute1()">display attibute value</button>
+<br>
+<a href="https://www.amazon.it/">profile photo</a>
+<br><hr>
+
+<button onclick="changeattribute()">update photo</button>
+<br>
+<img src="https://i.imgur.com/fOMTegD.jpeg">
+<br><hr>
+
+<button onclick="changequestiontype()">change option</button>
+<p>submit answer</p>
+<input type="range">
+<br><hr>
+
+<button id="but" onclick="addstylesheet()">update website design</button>
+<br>
+<img id="img" src="https://i.imgur.com/fOMTegD.jpeg">
+<br><hr>
+
+<button onclick="showattribute()">show attribute value</button>
+<br>
+<img src="https://i.imgur.com/fOMTegD.jpeg">
+<br><hr>
+
+<p>enter new password</p>
+<input type="password">
+<br><hr>
+
+<p>enter password</p>
+<input type="" placeholder="">
+<br><hr>
+
+<button onclick="showcolor()">style</button>
+<p style="color:teal">flowers by muriel</p>
+<br><hr>
+
+<button onclick="changecolor()">change color</button>
+<p>spygame III-coming january</p>
+<br><hr>
+
+<button onclick="changecolor1()">change color</button>
+<p>spygame III-coming january</p>
+<br><hr>
+
+<button id="but1" onclick="changestyle()">update profile design</button>
+<br>
+<img id="img2" src="https://i.imgur.com/fOMTegD.jpeg">
+<br><hr>
+
+<button onclick="changelayout()">change layout</button>
+<h3>cat pics</h3>
+<a href="https://i.imgur.com/fOMTegD.jpeg">img1</a>
+<a href="https://cdn.motor1.com/images/mgl/Mzw3E/s1/seat-leon-cupra-r-st-2019.webp">img2</a>
+<br><hr>
+
+<button onclick="changestyles1()">change styles</button>
+<p>spygame III-coming january</p>
+<br><hr>
+
+<button onclick="displayattribute()">display attribute</button>
+<br>
+<img src="https://i.imgur.com/fOMTegD.jpeg">
+<br><hr>
+
+<button onclick="displayattribute1()">display attribute</button>
+<br>
+<a href="https://www.amazon.it/">about me</a>
+<br><hr>
+
+<button onclick="displayattribute2()">display attribute</button>
+<br>
+<a style="color:red; font-size:12px;" href="https://www.amazon.it/">about me</a>
+<br><hr>
+
+<button onclick="showattribute3()">show attribute</button>
+<br>
+<a style="color:teal; font-size:15px" href="https://www.amazon.it/">about me</a>
+<br><hr>
+
+<button onclick="showattribute4()">showattribute</button>
+<br>
+<a style="color:red;" href="https://www.amazon.it/">about me</a>
+<br><hr>
+
+<button onclick="changeprofile()">change image</button>
+<br>
+<img src="https://i.imgur.com/fOMTegD.jpeg">
+<br><hr>
+
+<button onclick="changeimage()">try it</button>
+<br>
+<img src="https://i.imgur.com/fOMTegD.jpeg">
+<br><hr>
+
+<button onclick="changetype()">change input type</button>
+<input type="date">
+<br><hr>
+
+<button onclick="updateelement()">add placeholder</button>
+<br>
+<input type="password">
+<br><hr>
+
+<ul>
+  <li>micheal</li>
+  <li>jonas</li>
+  <li>ellen</li>
+</ul>
+<button onclick="displayitem">display item</button>
+<br><hr>
+
+<ul>
+  <li class="urgent">buy milk</li>
+  <li class="urgent">call grandma</li>
+  <li>workout</li>
+</ul>
+<button onclick="displayitem1()">display urgent tasks</button>
+<br><hr>
+
+<h3>this week on homeflix</h3>
+<h4 class="thriller">the spy that knew too much</h4>
+<h4 class="adventure">batman returns</h4>
+<h4 class="adventure">the dark knight</h4>
+<button onclick="updateheading()">update movies</button>
+<br><hr>
+
+<h3>breaking news</h3>
+<h3>the next olympic sport?</h3>
+<h3>the new y-phone</h3>
+<button onclick="displayitem2()">display the first heading element</button>
+<br><hr>
+
+<h3 class="movie gossip">oscar nominations drama</h3>
+<h3 class="sports news">the next olympic sport?</h3>
+<h3 class="tech news">the new y-phone</h3>
+<button onclick="displayitem3()">display number of news heading</button>
+<br><hr>
+
+<button class="bu" onclick="turnbold()">turn bold</button>
+<button class="bu" onclick="turnitalic()">turn italic</button>
+<br>
+<p class="italic">it was a bright cold day in april</p>
+<br><hr>
+
+<button>publish website</button>
+<p id="prompt10"></p>
+<br><hr>
+
+<div class="item">click me to change color</div>
+<br><hr>
+
+<textarea style="height: 100px; width: 100%;">bla bla bla bla bla 
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+bla bla bla bla blabla bla bla bla blabla bla bla bla blabla bla bla bla bla
+</textarea>
+<br><hr>
+
+<p>date:</p>
+<input type="date">
+<p>new date</p>
+<p id="log"></p>
+<br><hr>
+
+<input placeholder="start typing">
+<p id="log1"></p>
+<br><hr>
+
+<p>volume:</p>
+<input type="range">
+<p>new range</p>
+<p id="log2"></p>
+<br><hr>
+
+<div class="item2"></div>
+<br><hr>
+
+<button class="butt">height e width</button>
+<button class="butt">height</button>
+<button class="butt">width</button>
+<div class="default"></div>
+<br><hr>
+
+<h3>to do</h3>
+<ul>
+  <li id="item-1">work out</li>
+</ul>
+<button>clear item</button>
+<br><hr>
+
+
+
+
+
+<h1>hello, john</h1>
+<div id="root"></div>
+ 
+
+<script src="index.js"></script>
+    </body>
+</html>
