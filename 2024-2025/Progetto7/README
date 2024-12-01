@@ -1,9 +1,82 @@
     
     # RICHIESTA
 
-    #   Automatizzare azioni su social network tramite bot
+    #   Automatizzare azioni su social network tramite bot da far girare su distribuzione
+    #   basata su debian con 4GB di RAM e una connessione internet instabile con massimo 4Mbps
 
     # BREVE DESCRIZIONE SUL FUNZIONAMENTO
 
-    #   Tramite la libreria selenium, apro firefox 
+    #   Sono stati crati 4 script python, ognuno con una sua funzione per massimizzare le prestazioni
+
+        #   Il primo script consisteva nel raccogliere i vari username target in base alle pagine seguite
+            
+            #   Per ogni account precreato, contenuto in un file txt
+            #   Apre il browser
+            #   Vai alla pagina di login del sito
+            #   Inserisci username e password
+            #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
+            #   Vai sulla pagina del profilo/pagina target
+            #   Esegue una funzione per raccogliere in ordine cronologico 
+            #       inverso gli utenti che seguivano quest'ultima, in base alla quantità scelta o in automatico
+            #   Inserisce ogni utente trovato in un file txt controllando che non sia già nel txt
+            #   Dopo aver raccolto la quantità necessaria, si slogga, chiude il browser, ricontrolla che
+            #       non ci siano doppioni, riavvia il modem se richiesto, si prende una pausa di tot tempo e procede con il secondo account
+            #       ed il secondo profilo target, e così via fino a completare gli account contenuti nel txt
+            #       (volendo si può scegliere anche di iterare gli account in modo molteplice o in modo infinito 
+            #       fino allo stop del programma)
+
+            #   Print di ogni operazine importante:
+            #       CONNESSIONE INTERNET
+            #       LOGIN
+            #       ACCOUNT IN USO
+            #       STATO DELL'ACCOUNT
+            #       PROFILO IN SCANNERIZZAZIONE
+            #       PROGRESSO DELLA SCANNERIZZAZIONE
+            #       UTENTI NUOVI 
+            #       UTENTI DOPPI NON SALVATI
+            #       LISTA PULITA
+            #       RIAVVIO MODEM (se richiesto)
+
+            # CONTROLLO DGLI ERRORI
+                #   Se internet assente o impossibilitato al loggarsi, passare all'account successivo
+                #   Se gli account target sono esauriti, finire prima la raccolta di essi e passare al successivo
+                #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
+                #       con il salvataggio e pulizia dei txt contenenti gli account
+
+#   Il secondo script consisteva nel dividere gli account raccolti in 2 categorie LIKE e FOLLOW
+            
+            #   Per ogni account precreato, contenuto in un file txt
+            #   Apre il browser
+            #   Vai alla pagina di login del sito
+            #   Inserisci username e password
+            #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
+            #   Vai sulla pagina del profilo/pagina dell'account (pescato dalla copia del txt creato con il primo script)
+            #   Esegue una funzione che controlla se l'account è privato e se contiene foto
+            #   In base al profilo, inserisce l'account in uno dei due txt creati, uno per gli utenti a cui si può mettere
+            #       like ai contenuti e nell'altro gli account a cui si può fare solo follow
+            #   Infine elinima gli account dalla copia del txt principale
+            #   Dopo aver smistato tot account, chiude il browser, ricontrolla che non ci siano doppioni,
+            #       riavvia il modem se richiesto, si prende una pausa di tot tempo e procede con il secondo account
+            #       per i successivi profili target, e così via fino a completare gli account contenuti nel txt
+            #       (volendo si può scegliere anche di iterare gli account in modo molteplice o in modo infinito 
+            #       fino allo stop del programma)
+
+
+            #   Print di ogni operazine importante:
+            #       CONNESSIONE INTERNET
+            #       LOGIN
+            #       ACCOUNT IN USO
+            #       STATO DELL'ACCOUNT
+            #       PROFILO IN SCANNERIZZAZIONE
+            #       PROGRESSO DELLA SCANNERIZZAZIONE
+            #       UTENTI LIKE
+            #       UTENTI FOLLOW   
+            #       LISTA PULITA
+            #       RIAVVIO MODEM (se richiesto)
+
+            # CONTROLLO DGLI ERRORI
+                #   Se internet assente o impossibilitato al loggarsi, passare all'account successivo
+                #   Se gli account target sono esauriti, finire prima lo smistamanto di essi
+                #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
+                #       con il salvataggio e pulizia dei txt contenenti gli account
 
