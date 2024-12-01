@@ -43,8 +43,8 @@
                 #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
                 #       con il salvataggio e pulizia dei txt contenenti gli account
 
-#   Il secondo script consisteva nel dividere gli account raccolti in 2 categorie LIKE e FOLLOW
-            
+        #   Il secondo script consisteva nel dividere gli account raccolti in 2 categorie LIKE e FOLLOW
+                    
             #   Per ogni account precreato, contenuto in un file txt
             #   Apre il browser
             #   Vai alla pagina di login del sito
