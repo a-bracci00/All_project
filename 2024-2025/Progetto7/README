@@ -19,6 +19,7 @@
             #   Esegue una funzione per raccogliere in ordine cronologico 
             #       inverso gli utenti che seguivano quest'ultima, in base alla quantità scelta o in automatico
             #   Inserisce ogni utente trovato in un file txt controllando che non sia già nel txt
+            #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
             #   Dopo aver raccolto la quantità necessaria, si slogga, chiude il browser, ricontrolla che
             #       non ci siano doppioni, riavvia il modem se richiesto, si prende una pausa di tot tempo e procede con il secondo account
             #       ed il secondo profilo target, e così via fino a completare gli account contenuti nel txt
@@ -54,13 +55,13 @@
             #   Esegue una funzione che controlla se l'account è privato e se contiene foto
             #   In base al profilo, inserisce l'account in uno dei due txt creati, uno per gli utenti a cui si può mettere
             #       like ai contenuti e nell'altro gli account a cui si può fare solo follow
-            #   Infine elinima gli account dalla copia del txt principale
-            #   Dopo aver smistato tot account, chiude il browser, ricontrolla che non ci siano doppioni,
+            #   Poi elinima gli account dalla copia del txt principale
+            #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
+            #   Dopo aver smistato tot account, si slogga, chiude il browser, ricontrolla che non ci siano doppioni,
             #       riavvia il modem se richiesto, si prende una pausa di tot tempo e procede con il secondo account
             #       per i successivi profili target, e così via fino a completare gli account contenuti nel txt
             #       (volendo si può scegliere anche di iterare gli account in modo molteplice o in modo infinito 
             #       fino allo stop del programma)
-
 
             #   Print di ogni operazine importante:
             #       CONNESSIONE INTERNET
@@ -71,7 +72,7 @@
             #       PROGRESSO DELLA SCANNERIZZAZIONE
             #       UTENTI LIKE
             #       UTENTI FOLLOW   
-            #       LISTA PULITA
+            #       LISTE PULITE
             #       RIAVVIO MODEM (se richiesto)
 
             # CONTROLLO DGLI ERRORI
@@ -80,4 +81,83 @@
                 #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
                 #       con il salvataggio e pulizia dei txt contenenti gli account
 
-# inserire terzo e quarto script
+        #   Il terzo script consisteva nell'eseguire delle azioni nell'account social, in questo caso il LIKE ai post
+                    
+            #   Per ogni account precreato, contenuto in un file txt
+            #   Apre il browser
+            #   Vai alla pagina di login del sito
+            #   Inserisci username e password
+            #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
+            #   Vai sulla pagina del profilo/pagina dell'account (pescato dal txt LIKE creato con il secondo script)
+            #   Esegue una funzione che mette like ad uno o più post presenti
+            #   Se l'account ha completato l'azione, il profilo target vine inserito in un txt chiamato LIKE USATI
+            #   Altrimenti inserisci il profilo target in LIKE NON RIUSCITO
+            #   Dopo elinima gli account dal txt LIKE
+            #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
+            #   Se l'account è stato sospeso o disattivato, riprende gli account utilizzati messi in LIKE USATI
+            #       e li riaggiunge alla fine del file txt LIKE per riessere usati
+            #   Dopo aver messo like a tot account, si slogga, chiude il browser, ricontrolla che non ci siano doppioni, 
+            #       sia nel txt LIKE che nel txt LIKE USATI, poi riavvia il modem se richiesto, 
+            #       si prende una pausa di tot tempo e procede con il secondo account
+            #       per i successivi profili target, e così via fino a completare gli account contenuti nel txt
+            #       (volendo si può scegliere anche di iterare gli account in modo molteplice o in modo infinito 
+            #       fino allo stop del programma)
+
+            #   Print di ogni operazine importante:
+            #       CONNESSIONE INTERNET
+            #       LOGIN
+            #       ACCOUNT IN USO
+            #       STATO DELL'ACCOUNT
+            #       PROFILO IN SCANNERIZZAZIONE
+            #       PROGRESSO DELLA SCANNERIZZAZIONE
+            #       UTENTI LIKE RIUSCITO
+            #       UTENTI LIKE NON RIUSCITO
+            #       LISTE PULITE
+            #       RIAVVIO MODEM (se richiesto)
+
+            # CONTROLLO DGLI ERRORI
+                #   Se internet assente o impossibilitato al loggarsi, passare all'account successivo
+                #   Se gli account target sono esauriti, finire prima le operazioni su account
+                #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
+                #       con il salvataggio e pulizia dei txt contenenti gli account
+
+        #   Il questo script consisteva nell'eseguire delle azioni nell'account social, in questo caso il FOLLOW ai profili
+                    
+            #   Per ogni account precreato, contenuto in un file txt
+            #   Apre il browser
+            #   Vai alla pagina di login del sito
+            #   Inserisci username e password
+            #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
+            #   Vai sulla pagina del profilo/pagina dell'account (pescato dal txt FOLLOW creato con il secondo script)
+            #   Esegue una funzione che mette follow
+            #   Se l'account ha completato l'azione, il profilo target vine inserito in un txt chiamato FOLLOW USATI
+            #   Altrimenti inserisci il profilo target in FOLLOW NON RIUSCITO
+            #   Dopo elinima gli account dal txt FOLLOW
+            #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
+            #   Se l'account è stato sospeso o disattivato, riprende gli account utilizzati messi in FOLLOW USATI
+            #       e li riaggiunge alla fine del file txt FOLLOW per riessere usati
+            #   Dopo aver messo like a tot account, si slogga, chiude il browser, ricontrolla che non ci siano doppioni, 
+            #       sia nel txt FOLLOW che nel txt FOLLOW USATI, poi riavvia il modem se richiesto, 
+            #       si prende una pausa di tot tempo e procede con il secondo account
+            #       per i successivi profili target, e così via fino a completare gli account contenuti nel txt
+            #       (volendo si può scegliere anche di iterare gli account in modo molteplice o in modo infinito 
+            #       fino allo stop del programma)
+
+            #   Print di ogni operazine importante:
+            #       CONNESSIONE INTERNET
+            #       LOGIN
+            #       ACCOUNT IN USO
+            #       STATO DELL'ACCOUNT
+            #       PROFILO IN SCANNERIZZAZIONE
+            #       PROGRESSO DELLA SCANNERIZZAZIONE
+            #       UTENTI FOLLOW RIUSCITO
+            #       UTENTI FOLLOW NON RIUSCITO
+            #       LISTE PULITE
+            #       RIAVVIO MODEM (se richiesto)
+
+            # CONTROLLO DGLI ERRORI
+                #   Se internet assente o impossibilitato al loggarsi, passare all'account successivo
+                #   Se gli account target sono esauriti, finire prima le operazioni su account
+                #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
+                #       con il salvataggio e pulizia dei txt contenenti gli account
+        
