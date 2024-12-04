@@ -21,8 +21,8 @@
             #   Inserisce ogni utente trovato in un file txt PROFILI SCANNERIZZATI controllando che non sia già nel txt
             #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
             #   Dopo aver raccolto la quantità necessaria, si slogga, chiude il browser, ricontrolla che
-            #       non ci siano doppioni, aggiunge i nuovi profili trovati in un txt PROFILI SCANNERIZZATI NUOVI, riavvia il modem se richiesto, 
-            #       si prende una pausa di tot tempo e procede con il secondo account
+            #       non ci siano doppioni, aggiunge i nuovi profili trovati in un txt PROFILI SCANNERIZZATI NUOVI,
+            #       riavvia il modem se richiesto, si prende una pausa di tot tempo e procede con il secondo account
             #       ed il secondo profilo target, e così via fino a completare gli account contenuti nel txt
             #       (volendo si può scegliere anche di iterare gli account in modo molteplice o in modo infinito 
             #       fino allo stop del programma)
@@ -59,7 +59,7 @@
             #   Vai alla pagina di login del sito
             #   Inserisci username e password
             #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
-            #   Vai sulla pagina del profilo/pagina dell'account (pescato dal file txt PROFILI SCANNERIZZATI NUOVI creato con il primo script)
+            #   Vai sulla pagina del profilo/pagina dell'account (preso dal file txt PROFILI SCANNERIZZATI NUOVI creato con il primo script)
             #   Esegue una funzione che controlla se l'account è privato, se contiene foto o altro
             #   In base al profilo, inserisce l'account in uno dei due txt creati, uno per gli utenti a cui si può mettere
             #       like ai contenuti e nell'altro gli account a cui si può fare solo follow
@@ -87,7 +87,7 @@
             # CONTROLLO DGLI ERRORI
 
                 #   Se internet assente o impossibilitato al loggarsi, passare all'account successivo
-                #   Se gli account target sono esauriti, finire prima lo smistamanto di essi
+                #   Se gli account target sono esauriti, finire prima lo smistamento di essi
                 #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
                 #       con il salvataggio e pulizia dei txt contenenti gli account
 
