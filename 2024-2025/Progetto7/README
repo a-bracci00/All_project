@@ -18,31 +18,39 @@
             #   Vai sulla pagina del profilo/pagina target
             #   Esegue una funzione per raccogliere in ordine cronologico 
             #       inverso gli utenti che seguivano quest'ultima, in base alla quantità scelta o in automatico
-            #   Inserisce ogni utente trovato in un file txt controllando che non sia già nel txt
+            #   Inserisce ogni utente trovato in un file txt PROFILI SCANNERIZZATI controllando che non sia già nel txt
             #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
             #   Dopo aver raccolto la quantità necessaria, si slogga, chiude il browser, ricontrolla che
-            #       non ci siano doppioni, riavvia il modem se richiesto, si prende una pausa di tot tempo e procede con il secondo account
+            #       non ci siano doppioni, aggiunge i nuovi profili trovati in un txt PROFILI SCANNERIZZATI NUOVI, riavvia il modem se richiesto, 
+            #       si prende una pausa di tot tempo e procede con il secondo account
             #       ed il secondo profilo target, e così via fino a completare gli account contenuti nel txt
             #       (volendo si può scegliere anche di iterare gli account in modo molteplice o in modo infinito 
             #       fino allo stop del programma)
 
             #   Print di ogni operazione importante:
-            #       CONNESSIONE INTERNET
-            #       LOGIN
-            #       ACCOUNT IN USO
-            #       STATO DELL'ACCOUNT
-            #       PROFILO IN SCANNERIZZAZIONE
-            #       PROGRESSO DELLA SCANNERIZZAZIONE
-            #       UTENTI NUOVI 
-            #       UTENTI DOPPI NON SALVATI
-            #       LISTA PULITA
-            #       RIAVVIO MODEM (se richiesto)
+
+                #       CONNESSIONE INTERNET
+                #       LOGIN
+                #       ACCOUNT IN USO
+                #       STATO DELL'ACCOUNT
+                #       PROFILO IN SCANNERIZZAZIONE
+                #       PROGRESSO DELLA SCANNERIZZAZIONE
+                #       UTENTI NUOVI 
+                #       UTENTI DOPPI NON SALVATI
+                #       LISTA PULITA
+                #       RIAVVIO MODEM (se richiesto)
 
             # CONTROLLO DGLI ERRORI
+
                 #   Se internet assente o impossibilitato al loggarsi, passare all'account successivo
                 #   Se gli account target sono esauriti, finire prima la raccolta di essi e passare al successivo
                 #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
                 #       con il salvataggio e pulizia dei txt contenenti gli account
+            
+            # OUTPUT
+
+                #   File txt denominato PROFILI SCANNERIZZATI
+                #   File txt denominato PROFILI SCANNERIZZATI NUOVI                
 
         #   Il secondo script consisteva nel dividere gli account raccolti in 2 categorie LIKE e FOLLOW
                     
@@ -51,11 +59,11 @@
             #   Vai alla pagina di login del sito
             #   Inserisci username e password
             #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
-            #   Vai sulla pagina del profilo/pagina dell'account (pescato dalla copia del txt creato con il primo script)
-            #   Esegue una funzione che controlla se l'account è privato e se contiene foto
+            #   Vai sulla pagina del profilo/pagina dell'account (pescato dal file txt PROFILI SCANNERIZZATI NUOVI creato con il primo script)
+            #   Esegue una funzione che controlla se l'account è privato, se contiene foto o altro
             #   In base al profilo, inserisce l'account in uno dei due txt creati, uno per gli utenti a cui si può mettere
             #       like ai contenuti e nell'altro gli account a cui si può fare solo follow
-            #   Poi elinima gli account dalla copia del txt principale
+            #   Poi elinima gli account nella copia del txt PROFILI SCANNERIZZATI NUOVI
             #   Controllo dello stato dell'account (OK, SOSPESO, DISATTIVATO, ALTRO)
             #   Dopo aver smistato tot account, si slogga, chiude il browser, ricontrolla che non ci siano doppioni,
             #       riavvia il modem se richiesto, si prende una pausa di tot tempo e procede con il secondo account
@@ -64,22 +72,36 @@
             #       fino allo stop del programma)
 
             #   Print di ogni operazione importante:
-            #       CONNESSIONE INTERNET
-            #       LOGIN
-            #       ACCOUNT IN USO
-            #       STATO DELL'ACCOUNT
-            #       PROFILO IN SCANNERIZZAZIONE
-            #       PROGRESSO DELLA SCANNERIZZAZIONE
-            #       UTENTI LIKE
-            #       UTENTI FOLLOW   
-            #       LISTE PULITE
-            #       RIAVVIO MODEM (se richiesto)
+
+                #       CONNESSIONE INTERNET
+                #       LOGIN
+                #       ACCOUNT IN USO
+                #       STATO DELL'ACCOUNT
+                #       PROFILO IN SCANNERIZZAZIONE
+                #       PROGRESSO DELLA SCANNERIZZAZIONE
+                #       UTENTI LIKE
+                #       UTENTI FOLLOW   
+                #       LISTE PULITE
+                #       RIAVVIO MODEM (se richiesto)
 
             # CONTROLLO DGLI ERRORI
+
                 #   Se internet assente o impossibilitato al loggarsi, passare all'account successivo
                 #   Se gli account target sono esauriti, finire prima lo smistamanto di essi
                 #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
                 #       con il salvataggio e pulizia dei txt contenenti gli account
+
+            # OUTPUT
+
+                #   File txt denominato LIKE
+                #   File txt denominato FOLLOW
+
+            # DIAGRAMMA AD ALBERO
+
+                #       PROFILI SCANNERIZZATI NUOVI
+                #           _________|_________
+                #          |                   |
+                #         LIKE               FOLLOW
 
         #   Il terzo script consisteva nell'eseguire delle azioni nell'account social, in questo caso il LIKE ai post
                     
@@ -104,24 +126,38 @@
             #       fino allo stop del programma)
 
             #   Print di ogni operazione importante:
-            #       CONNESSIONE INTERNET
-            #       LOGIN
-            #       ACCOUNT IN USO
-            #       STATO DELL'ACCOUNT
-            #       PROFILO IN SCANNERIZZAZIONE
-            #       PROGRESSO DELLA SCANNERIZZAZIONE
-            #       UTENTI LIKE RIUSCITO
-            #       UTENTI LIKE NON RIUSCITO
-            #       LISTE PULITE
-            #       RIAVVIO MODEM (se richiesto)
+
+                #       CONNESSIONE INTERNET
+                #       LOGIN
+                #       ACCOUNT IN USO
+                #       STATO DELL'ACCOUNT
+                #       PROFILO IN SCANNERIZZAZIONE
+                #       PROGRESSO DELLA SCANNERIZZAZIONE
+                #       UTENTI LIKE RIUSCITO
+                #       UTENTI LIKE NON RIUSCITO
+                #       LISTE PULITE
+                #       RIAVVIO MODEM (se richiesto)
 
             # CONTROLLO DGLI ERRORI
+
                 #   Se internet assente o impossibilitato al loggarsi, passare all'account successivo
                 #   Se gli account target sono esauriti, finire prima le operazioni su account
                 #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
                 #       con il salvataggio e pulizia dei txt contenenti gli account
 
-        #   Il questo script consisteva nell'eseguire delle azioni nell'account social, in questo caso il FOLLOW ai profili
+            # OUTPUT
+
+                #   File txt denominato LIKE USATI
+                #   File txt denominato LIKE NON RIUSCITO
+
+            # DIAGRAMMA AD ALBERO
+
+                #                  LIKE
+                #           _________|_________
+                #          |                   |
+                #      LIKE USATI        LIKE NON RIUSCITO
+
+        #   Il quarto script consisteva nell'eseguire delle azioni nell'account social, in questo caso il FOLLOW ai profili
                     
             #   Per ogni account precreato, contenuto in un file txt
             #   Apre il browser
@@ -160,4 +196,34 @@
                 #   Se gli account target sono esauriti, finire prima le operazioni su account
                 #   Possibilità di interrompere lo script in qualsiasi momento con il comando Ctrl-C evitando problemi
                 #       con il salvataggio e pulizia dei txt contenenti gli account
-        
+
+            # OUTPUT
+
+                #   File txt denominato FOLLOW USATI
+                #   File txt denominato FOLLOW NON RIUSCITO
+
+            # DIAGRAMMA AD ALBERO
+
+                #                 FOLLOW
+                #           _________|_________
+                #          |                   |
+                #      FOLLOW USATI    FOLLOW NON RIUSCITO
+
+
+    # DIAGRAMMA AD ALBERO COMPLETO
+
+        #                                                              SCRIPT 1
+        #                                                                 |
+        #                                                       PROFILI SCANNERIZZATI
+        #                                                                 |
+        #                                                     PROFILI SCANNERIZZATI NUOVI
+        #                                                                 |
+        #                                                              SCRIPT 2
+        #                                               __________________|__________________
+        #                                              |                                     |
+        #                                             LIKE                                 FOLLOW
+        #                                              |                                     |
+        #                                           SCRIPT 3                              SCRIPT 4
+        #                                      ________|________                     ________|_________
+        #                                     |                 |                   |                  |
+        #                                 LIKE USATI    LIKE NON RIUSCITO     FOLLOW USATI     FOLLOW NON RIUSCITO
