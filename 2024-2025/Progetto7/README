@@ -215,18 +215,18 @@
 
     # DIAGRAMMA AD ALBERO COMPLETO
 
-        #                                                              SCRIPT 1
-        #                                                                 |
-        #                                                       PROFILI SCANNERIZZATI
-        #                                                                 |
-        #                                                     PROFILI SCANNERIZZATI NUOVI
-        #                                                                 |
-        #                                                              SCRIPT 2
-        #                                               __________________|__________________
-        #                                              |                                     |
-        #                                             LIKE                                 FOLLOW
-        #                                              |                                     |
-        #                                           SCRIPT 3                              SCRIPT 4
-        #                                      ________|________                     ________|_________
-        #                                     |                 |                   |                  |
-        #                                 LIKE USATI    LIKE NON RIUSCITO     FOLLOW USATI     FOLLOW NON RIUSCITO
+        #                                                       SCRIPT 1
+        #                                                          |
+        #                                                PROFILI SCANNERIZZATI
+        #                                                          |
+        #                                              PROFILI SCANNERIZZATI NUOVI
+        #                                                          |
+        #                                                       SCRIPT 2
+        #                                        __________________|__________________
+        #                                       |                                     |
+        #                                      LIKE                                 FOLLOW
+        #                                       |                                     |
+        #                                    SCRIPT 3                              SCRIPT 4
+        #                               ________|________                     ________|_________
+        #                              |                 |                   |                  |
+        #                          LIKE USATI    LIKE NON RIUSCITO     FOLLOW USATI     FOLLOW NON RIUSCITO
