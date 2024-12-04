@@ -52,6 +52,7 @@
                 #   File txt denominato PROFILI SCANNERIZZATI
                 #   File txt denominato PROFILI SCANNERIZZATI NUOVI                
 
+
         #   Il secondo script consisteva nel dividere gli account raccolti in 2 categorie LIKE e FOLLOW
                     
             #   Per ogni account precreato, contenuto in un file txt
@@ -102,6 +103,7 @@
                 #           _________|_________
                 #          |                   |
                 #         LIKE               FOLLOW
+
 
         #   Il terzo script consisteva nell'eseguire delle azioni nell'account social, in questo caso il LIKE ai post
                     
@@ -156,6 +158,7 @@
                 #           _________|_________
                 #          |                   |
                 #      LIKE USATI        LIKE NON RIUSCITO
+
 
         #   Il quarto script consisteva nell'eseguire delle azioni nell'account social, in questo caso il FOLLOW ai profili
                     
