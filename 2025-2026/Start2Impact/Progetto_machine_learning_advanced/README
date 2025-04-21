@@ -1,0 +1,24 @@
+
+    # SVOLGIMENTO DEL PROGETTO
+
+    #   Lavoro per un’azienda specializzata nell’analisi e certificazione della qualità dei vini prodotti a basso impatto ambientale. 
+    #   In questo contesto, ho sviluppato un modello di machine learning in grado di classificare automaticamente la tipologia di vino in base a parametri chimici, 
+    #   contribuendo così al controllo qualità e alla tracciabilità lungo tutta la filiera.
+
+    #   Per questo progetto ho utilizzato il dataset Wine disponibile nella libreria scikit-learn. Il dataset contiene misurazioni chimiche di vini 
+    #   provenienti da tre diversi produttori italiani. L’obiettivo è stato costruire un modello in grado di prevedere correttamente 
+    #   la classe di appartenenza del vino partendo dai suoi valori chimici.
+
+    #   Ho caricato il dataset direttamente da scikit-learn e l’ho trasformato in un DataFrame Pandas per facilitare l’esplorazione e la gestione dei dati. 
+    #   Ho quindi separato le feature (i valori chimici) dal target (la classe del vino) e ho diviso i dati in training e test set, mantenendo un 20% dei dati per il test finale. 
+    #   Ho usato uno split stratificato e ho bloccato la randomicità con un seed fisso per garantire la riproducibilità.
+
+    #   Come modello, ho scelto un Random Forest Classifier, per la sua capacità di gestire bene dataset con molte feature, senza richiedere una pesante normalizzazione. 
+    #   Ho validato uno dei suoi iperparametri più influenti, ovvero il numero di alberi nella foresta (`n_estimators`), testando diversi valori tramite una Grid Search 
+    #   con validazione incrociata. Questo mi ha permesso di identificare la configurazione migliore in termini di accuratezza sul training set.
+
+    #   Una volta individuato il miglior modello, l’ho testato sul set di test per valutare le sue prestazioni su dati mai visti. I risultati ottenuti sono stati ottimi, 
+    #   confermando l’efficacia del modello nel distinguere tra le diverse tipologie di vino in base alla loro composizione chimica.
+
+    #   Ho commentato il codice in ogni fase, spiegando il motivo delle scelte fatte e descrivendo le operazioni svolte, così da rendere il notebook facilmente comprensibile e 
+    #   riutilizzabile da altri membri del team o da stakeholder tecnici.
