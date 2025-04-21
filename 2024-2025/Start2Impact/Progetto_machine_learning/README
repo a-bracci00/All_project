@@ -1,0 +1,17 @@
+
+    # SVOLGIMENTO DEL PROGETTO
+
+    #   Ho lavorato su un sottoinsieme del dataset del Titanic, chiamato `titanic_sub`, con l’obiettivo di predire la sopravvivenza dei passeggeri usando un modello ad albero di decisione. 
+    #   Dopo aver caricato il dataset con Pandas, ho scelto `PassengerId` come indice perché identifica univocamente ogni passeggero.
+
+    #   Ho separato la variabile target `Survived` dalle feature, e ho preparato i dati per l’uso con scikit-learn. In particolare, 
+    #   ho codificato le variabili categoriche usando `get_dummies` di Pandas, trasformandole in numeri.
+
+    #   Successivamente, ho diviso i dati in un training set (75%) e un test set (25%), fissando il seed a 0 per rendere il tutto ripetibile. 
+    #   Il training set l’ho poi suddiviso ulteriormente in training e validation set, ancora con proporzione 75%-25% e stesso seed.
+
+    #   Ho addestrato diversi alberi decisionali, variando la profondità (2, 5, 10, 25 e senza limite), e li ho valutati in base all’accuratezza sul validation set. 
+    #   Ho selezionato la profondità che dava le performance migliori.
+
+    #   Infine, ho riaddestrato il modello usando insieme training e validation set, e ho valutato l’accuratezza finale sul test set per avere una stima reale delle prestazioni.
+
