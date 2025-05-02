@@ -1,0 +1,18 @@
+
+    # SVOLGIMENTO DEL PROGETTO
+
+    #  Il progetto si è concentrato sulla costruzione di un modello predittivo per classificare la potabilità dell’acqua, utilizzando dati relativi a caratteristiche chimiche e fisiche. L’obiettivo principale era ottenere buoni risultati in termini di accuratezza, tenendo conto anche dell’interpretabilità del modello e dello sbilanciamento presente nella variabile target.
+
+    #  Il lavoro è iniziato con la preparazione del dataset, suddividendo i dati in un training set (usato per tutta l’analisi) e un test set riservato esclusivamente alla valutazione finale. Questo approccio ha permesso di evitare contaminazioni nei risultati (data leakage).
+
+    #  Durante la fase di analisi esplorativa, sono stati individuati outlier e valutata la distribuzione delle variabili. Le feature numeriche sono state standardizzate per facilitare l’addestramento di modelli sensibili alla scala dei dati, come il K-Nearest Neighbors. È stata analizzata anche la distribuzione della variabile target, rivelando un leggero sbilanciamento a favore della classe “non potabile”.
+
+    #  L’analisi delle correlazioni ha mostrato relazioni deboli tra le feature, suggerendo che i modelli lineari potrebbero non essere i più adatti. Per approfondire l’importanza delle variabili, è stato applicato un test Chi-quadrato che ha identificato `Hardness`, `Chloramines` e `Sulfate` come le più informative.
+
+    #  Sono state quindi definite due strategie parallele: una che utilizza tutte le feature disponibili, e un’altra che si concentra solo sulle tre selezionate. Sono stati scelti tre modelli di classificazione: regressione logistica, Random Forest e KNN. Dopo una prima valutazione tramite cross-validation stratificata, sono stati selezionati Random Forest e KNN come i migliori candidati per ciascuna strategia.
+
+    #  Gli iperparametri dei modelli sono stati ottimizzati con GridSearchCV, evitando combinazioni inefficaci. Infine, i modelli ottimizzati sono stati testati sul set di dati mai visto prima. I migliori risultati sono stati ottenuti con Random Forest utilizzando tutte le feature, con un’accuratezza intorno al 69%. Tuttavia, il recall sulla classe minoritaria è rimasto basso, evidenziando la difficoltà nel classificare correttamente l’acqua potabile.
+
+    #  Il progetto si conclude con un confronto tra accuratezza e semplicità: i modelli con tutte le feature offrono prestazioni migliori, mentre quelli con feature selezionate sono più rapidi e leggibili. In entrambi i casi, la Random Forest è risultata il modello più efficace, mentre il KNN si è dimostrato più adatto in contesti a risorse limitate. 
+
+    #  Il lavoro ha posto le basi per future ottimizzazioni, come l’uso di tecniche di bilanciamento o modelli avanzati, e rappresenta un primo passo concreto verso l’applicazione del machine learning alla tutela delle risorse idriche.
