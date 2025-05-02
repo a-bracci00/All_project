@@ -1,0 +1,50 @@
+    # <!-- GUIDA PER CONVERTIRE FILE .CBZ IN PDF
+
+    #     COSA FA QUESTO SCRIPT
+    #     Questo script apre automaticamente tutti i file .cbz (fumetti compressi) presenti in una cartella, estrae le immagini e crea un file PDF per ciascun .cbz.
+
+    #     COSA SERVE
+    #     - Python installato sul computer (https://www.python.org/)
+    #     - Le seguenti librerie installate:
+    #         - Pillow (per gestire le immagini)
+    #         - reportlab (per creare PDF)
+
+    #         PASSAGGI
+
+    #         1. INSTALLA LE LIBRERIE NECESSARIE (solo la prima volta)
+    #         Apri il terminale o prompt dei comandi e scrivi:
+    #             pip install pillow reportlab
+
+
+    #         2. CREA LE CARTELLE
+    #         Prepara una cartella con i file .cbz che vuoi convertire.
+    #         Ad esempio, puoi chiamarla:
+    #             convertitore_cbz_to_pdf
+    #         In questo caso è già stata creata
+
+
+    #         3. SCARICA O USA IL FILE PYTHON
+    #         Assicurati di avere il file Python già pronto con il nome:
+    #             convertitore_cbz_to_pdf.py
+    #         Metti questo file **nella stessa cartella** dove si trova la cartella `convertitore_cbz_to_pdf`.
+
+
+    #         4. AGGIUNGI I FILE .CBZ
+    #         Metti i tuoi file .cbz dentro la cartella:
+    #             convertitore_cbz_to_pdf
+
+
+    #         5. ESEGUI LO SCRIPT
+    #         Nel terminale o prompt dei comandi, spostati nella cartella dove si trova `convertitore.py` e scrivi:
+    #             python convertitore.py
+
+
+    #         6. TROVA I PDF
+    #         I file PDF verranno creati nella stessa cartella dei file .cbz, con lo stesso nome base.
+
+    #         FATTO!
+
+    #         NOTE:
+    #         - Lo script elabora solo file .cbz (non .cbr).
+    #         - Se un PDF con lo stesso nome esiste già, la conversione verrà saltata per quel file.
+    #         - I file temporanei usati per l’estrazione delle immagini vengono cancellati automaticamente. -->

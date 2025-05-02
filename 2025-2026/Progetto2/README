@@ -1,0 +1,36 @@
+    # GUIDA PER USARE LO SCRIPT DI UNIONE IMMAGINI (VERTICALE)
+
+    #     COSA FA
+    #     Questo script unisce due immagini, mettendole una sopra l'altra (in verticale), e salva il risultato in una nuova immagine.
+
+    #     COSA SERVE
+    #     - Python installato sul computer (https://www.python.org/)
+    #     - La libreria Pillow (serve per lavorare con immagini)
+    #     - Due immagini da unire (es. input1.png e input2.png)
+
+    #     PASSAGGI
+
+    #     1. INSTALLA LA LIBRERIA NECESSARIA (solo la prima volta)
+    #     Apri il terminale o prompt dei comandi e scrivi:
+    #         pip install pillow
+
+    #     2. PREPARA LE IMMAGINI
+    #     Assicurati di avere due immagini, ad esempio:
+    #         - input1.png
+    #         - input2.png
+    #     Metti entrambe nella stessa cartella dello script.
+
+        # 3. USA IL FILE PYTHON  
+        # Assicurati di avere il file `unisci_immagini_verticalmente.py`, che contiene lo script già pronto per unire le immagini.  
+        # Mettilo nella stessa cartella delle due immagini da unire.
+
+    #     4. ESEGUI LO SCRIPT
+    #     Nel terminale, spostati nella cartella dove hai salvato il file `unisci_immagini_verticalmente.py` e scrivi:
+    #         python unisci_immagini_verticalmente.py
+
+    #     5. RISULTATO
+    #     Troverai nella stessa cartella una nuova immagine chiamata:
+    #         output.png
+    #     che è l’unione delle due immagini originali.
+
+    #     FATTO!
